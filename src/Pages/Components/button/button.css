@@ -1,0 +1,32 @@
+.buttons{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 3rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: .5rem 2rem;
+    background: linear-gradient(to right, #ffffff 20%, #2c2c2c 100%);
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s cubic-bezier(1,-0.16,.6,1.35);
+}
+
+.btn:not(:last-child){
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    background-color: #037FFf;
+    cursor: pointer;
+}
+
+.btn:active, .btn:focus{
+    outline: none;
+    border: none;
+}
