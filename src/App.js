@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route path='/persky_definity' exact component={Home} />
+        <Route path='/persky_definity/' exact component={Home} />
           <Route path='/' exact component={Home} />
           <Route path='/products' component={Products} />
           <Route path='/cart' component={Cart} />
